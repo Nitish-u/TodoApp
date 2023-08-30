@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/Public/Images/7495404.jpg">
+    <link rel="stylesheet" href="./CSS/home.css">
+    <script src="./JS/home.js" defer></script>
+    <title>TODO APP</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo"><img src="./SVGs/codebotlogosvg.svg" alt="./The codebots" id="logo" class="navimages"></div>
+        <div class="socialLinks">
+            <a target="_blank" href="https://www.facebook.com/nitish.upadhyay.75033"><img src="./SVGs/facebook-svgrepo-com.svg" alt="Join me on facbook" class="navimages"></a>
+            <a target="_blank" href="https://instagram.com/upadhyay_.002?igshid=MzNlNGNkZWQ4Mg=="><img src="./SVGs/instagram-svgrepo-com.svg" alt="Join me on instagram" class="navimages"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/nitish-upadhyay-696978177"><img src="./SVGs/linkedin-svgrepo-com.svg" alt="Join me on linkdin" class="navimages"></a>
+            <a target="_blank" href="https://twitter.com/Nitish__003?t=_wqKiFf1dqFB-pwZMA7wvg&s=09"><img src="./SVGs/twitter-svgrepo-com.svg" alt="Join me on twitter" class="navimages"></a>
+        </div>
+    </nav>
+    <div class="warn">
+        <div class="warnParent">
+            <span class="warning"></span>
+            <img class="cross" src="./SVGs/cross-svgrepo-com.svg" alt="cross sign">
+        </div>
+        <div class="warningTimer"></div>
+    </div>
+    <div class="intro">
+        <h1>Welcome to our Todo App!</h1>
+    </div>
+    <div class="tools">
+        <div class="fixedWidth relative order1">
+            <input class="title" type="text" placeholder="Title">
+            <span class="Tooltip">What is it related to?</span>
+        </div>
+        <div class="flexWidth relative">
+            <input class="addTodo" type="text" placeholder="Add some things to do">
+            <span class="Tooltip">You can add multiple todos make sure to separate them with a semicolon(;)</span>
+        </div>
+        <div class="fixedWidth relative order2">
+            <button class="addTodoBtn">ADD TODO</button>
+            <span class="Tooltip">Add your work</span>
+        </div>
+
+
+    </div>
+    <p class="note"><span>Note :-</span> Don't refresh or close the page otherwise changes will not be synced.</p>
+    <hr>
+    <div class="logoutBtn">
+        <button class="Logout"><pre class="pic"> <%=locals.pic[0]%> </pre>Logout</button>
+        <button class="sync">Sync</button>
+    </div>
+    <div class="lists">
+    </div>
+</body>
+
+</html>
